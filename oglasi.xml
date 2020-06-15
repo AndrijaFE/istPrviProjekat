@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--<!DOCTYPE Oglasi SYSTEM "oglasi.dtd">-->
+
+<Oglasi xmlns="http://www.w3schools.com"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3schools.com oglasi.xsd">
+    <Oglas>
+        <Kategorija>Automobili</Kategorija>
+        <Datum>
+            <Dan>27</Dan>
+            <Mesec>05</Mesec>
+            <Godina>2020</Godina>
+        </Datum>
+        <Cena valuta="dinari">200000</Cena>
+        <Tekst>Na prodaju MercedesBenz GLE63</Tekst>
+        <Oznaka>Auto</Oznaka>
+        <Oznaka>Kola</Oznaka>
+        <Email tip="privatni">pera.nesto@nesto.com</Email>
+    </Oglas>
+</Oglasi>
