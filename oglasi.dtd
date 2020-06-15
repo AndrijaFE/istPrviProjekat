@@ -1,0 +1,15 @@
+<!ELEMENT Oglasi (Oglas)+>
+<!ELEMENT Oglas (Kategorija, Datum, Cena, Tekst, (Oznaka)+, (Email)+)>
+<!ELEMENT Datum (Dan, Mesec, Godina)>
+
+<!ELEMENT Kategorija (#PCDATA)>
+<!ELEMENT Dan (#PCDATA)>
+<!ELEMENT Mesec (#PCDATA)>
+<!ELEMENT Godina (#PCDATA)>
+<!ELEMENT Cena (#PCDATA)>
+<!ELEMENT Tekst (#PCDATA)>
+<!ELEMENT Oznaka (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+
+<!ATTLIST Cena valuta CDATA "dinari">
+<!ATTLIST Email tip (privatni | sluzbeni) #REQUIRED>
